@@ -1,0 +1,200 @@
+<style>
+    .transition {
+        transition: .3s cubic-bezier(.3, 0, 0, 1.3)
+    }
+
+    .three .transition {
+        transition: .7s cubic-bezier(.3, 0, 0, 1.3)
+    }
+
+    .five .transition {
+        transition: .5s cubic-bezier(.3, 0, 0, 1.3)
+    }
+
+    /* --------- board --------- */
+
+
+
+    .board>li {
+        background: #FFFFFF;
+        border: 1px solid rgba(150, 150, 150, 0.29);
+        -moz-box-shadow: 0px 0px 18px 0px rgba(103, 85, 85, 0.39);
+        box-shadow: 0px 0px 18px 0px rgba(103, 85, 85, 0.39);
+        width: 250px;
+        height: 430px;
+        display: inline-block;
+        margin: 0 5px;
+        text-align: center;
+    }
+
+    .board>li img {
+        margin-top: 60px;
+    }
+
+    .board>li:hover img {
+        margin-top: 30px;
+    }
+
+    .board>li:hover {
+        -moz-box-shadow: 0px 0px 5px 0px rgba(103, 85, 85, 0.25);
+        box-shadow: 0px 0px 5px 0px rgba(103, 85, 85, 0.25);
+    }
+
+    .board>li:hover span {
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        bottom: -400px;
+    }
+
+    .board>li:hover h3 {
+        color: rgba(255, 255, 255, 1);
+        margin-top: 25px;
+    }
+
+    .board>li .wrapper {
+        overflow: hidden;
+        position: absolute;
+        width: 250px;
+        height: 430px;
+    }
+
+    .board>li span {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        height: 500px;
+        width: 500px;
+        background: #F46517;
+        display: block;
+        position: absolute;
+        bottom: -300px;
+        left: -125px;
+    }
+
+    .board>li span img {
+        margin-top: 10px;
+        width: 50px;
+    }
+
+    .board>li span:hover {
+        background: #F46517;
+    }
+
+    .board>li h3 {
+        margin-top: 40px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .board>li h3 em {
+        display: block;
+        font-style: normal;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .board .social {
+        list-style: nboard;
+        text-align: center;
+        margin: 10px 0 0 0;
+        padding: 10px;
+    }
+
+    .board .social li {
+        opacity: 0;
+        display: inline-block;
+        padding: 5px;
+        color: #00ADEF;
+        font-weight: bold;
+    }
+
+    .board>li:hover .social li {
+        opacity: 0.5;
+    }
+
+    .board .social li a {
+        cursor: pointer;
+        display: block;
+    }
+
+    .board .social li a:hover {
+        opacity: 0.5;
+    }
+
+    .board .social li img {
+        width: 24px;
+    }
+</style>
+
+<ul class="board">
+    <li class="transition">
+        <div class="wrapper"> <img class="transition" src="/web/sites/default/files/inline-images/awuondo_0.png">
+            <ul class="social">
+                <li>Group Managing Director, Commercial Bank of Africa, Based in Nairobi, Kenya.<br>
+                    Find her on:</li>
+                <li class="transition"><a href="mailto:ida.hakizinka@aidspan.org"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li class="transition"><a href="https://twitter.com/Hakizinka"><i class="fa fa-twitter"></i></a></li>
+                <li class="transition"><a href="https://www.linkedin.com/in/ida-hakizinka-b94b47125" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <span class="transition">
+                <h3>Isaac Awuondo <em>Male | Board Chair.</em></h3>
+                <img src="http://dooreight.com/codepen/people/more.svg">
+            </span>
+        </div>
+    </li>
+    <li class="transition">
+        <div class="wrapper"> <img class="transition" src="/web/sites/default/files/inline-images/idaicon.png">
+            <ul class="social">
+                <li>Ida Hakizinka is the Executive Director of AIDSPAN.<br>
+                    Find her on:</li>
+                <li class="transition"><a href="mailto:ida.hakizinka@aidspan.org"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li class="transition"><a href="https://twitter.com/Hakizinka"><i class="fa fa-twitter"></i></a></li>
+                <li class="transition"><a href="https://www.linkedin.com/in/ida-hakizinka-b94b47125" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <span class="transition">
+                <h3>IDA Hakizinka <em>Executive Director</em></h3>
+                <img src="http://dooreight.com/codepen/people/more.svg">
+            </span>
+        </div>
+    </li>
+    <li class="transition">
+        <div class="wrapper"> <img class="transition" src="/web/sites/default/files/inline-images/djalo.png">
+            <ul class="social">
+                <li>President of the Country Coordinating Mechanism in Niger, Based in Niamey, Niger. <br>
+                    Find her on:</li>
+                <li class="transition"><a href="mailto:ida.hakizinka@aidspan.org"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li class="transition"><a href="https://twitter.com/Hakizinka"><i class="fa fa-twitter"></i></a></li>
+                <li class="transition"><a href="https://www.linkedin.com/in/ida-hakizinka-b94b47125" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <span class="transition">
+                <h3>Dr. Djalo Mele <em>Female</em></h3>
+                <img src="http://dooreight.com/codepen/people/more.svg">
+            </span>
+        </div>
+    </li>
+    <li class="transition">
+        <div class="wrapper"> <img class="transition" src="/web/sites/default/files/inline-images/alan%20white.png">
+            <ul class="social">
+                <li>CIGI Chair in Global Health Policy at the Balsillie School of International Affairs /<br>
+                    Find her on:</li>
+                <li class="transition"><a href="mailto:ida.hakizinka@aidspan.org"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li class="transition"><a href="https://twitter.com/Hakizinka"><i class="fa fa-twitter"></i></a></li>
+                <li class="transition"><a href="https://www.linkedin.com/in/ida-hakizinka-b94b47125" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <span class="transition">
+                <h3>P. Alan Whiteside<em>Male | Member</em></h3>
+                <img src="http://dooreight.com/codepen/people/more.svg">
+            </span>
+        </div>
+    </li>
+</ul>
